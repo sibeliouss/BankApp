@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sozey/Projects/BankApp/BankApp.Persistence/BankApp.Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/sozey/Projects/BankApp/BankApp.Application/BankApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sozey/Projects/BankApp/BankApp.Application/BankApp.Application.csproj",
+        "projectName": "BankApp.Application",
+        "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Application/BankApp.Application.csproj",
+        "packagesPath": "/Users/sozey/.nuget/packages/",
+        "outputPath": "/Users/sozey/Projects/BankApp/BankApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sozey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj"
+              },
+              "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj",
+        "projectName": "BankApp.Core",
+        "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj",
+        "packagesPath": "/Users/sozey/.nuget/packages/",
+        "outputPath": "/Users/sozey/Projects/BankApp/BankApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sozey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj",
+        "projectName": "BankApp.Domain",
+        "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj",
+        "packagesPath": "/Users/sozey/.nuget/packages/",
+        "outputPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sozey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sozey/Projects/BankApp/BankApp.Persistence/BankApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sozey/Projects/BankApp/BankApp.Persistence/BankApp.Persistence.csproj",
+        "projectName": "BankApp.Persistence",
+        "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Persistence/BankApp.Persistence.csproj",
+        "packagesPath": "/Users/sozey/.nuget/packages/",
+        "outputPath": "/Users/sozey/Projects/BankApp/BankApp.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sozey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/sozey/Projects/BankApp/BankApp.Application/BankApp.Application.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Application/BankApp.Application.csproj"
+              },
+              "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj"
+              },
+              "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
