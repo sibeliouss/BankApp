@@ -1,0 +1,12 @@
+/Users/sozey/Projects/BankApp/BankApp.Core/bin/Debug/net9.0/BankApp.Core.deps.json
+/Users/sozey/Projects/BankApp/BankApp.Core/bin/Debug/net9.0/BankApp.Core.dll
+/Users/sozey/Projects/BankApp/BankApp.Core/bin/Debug/net9.0/BankApp.Core.pdb
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.AssemblyInfoInputs.cache
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.AssemblyInfo.cs
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.csproj.CoreCompileInputs.cache
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.sourcelink.json
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.dll
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/refint/BankApp.Core.dll
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/BankApp.Core.pdb
+/Users/sozey/Projects/BankApp/BankApp.Core/obj/Debug/net9.0/ref/BankApp.Core.dll

@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "BankApp.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/BankApp.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BankApp.Domain.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "BankApp.Domain/1.0.0": {
-      "type": "project",
-      "path": "../BankApp.Domain/BankApp.Domain.csproj",
-      "msbuildProject": "../BankApp.Domain/BankApp.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "BankApp.Domain >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "/Users/sozey/.nuget/packages/": {}
@@ -50,11 +31,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj": {
-              "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -105,11 +105,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj": {
-                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Domain/BankApp.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -168,7 +164,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj": {
+                "projectPath": "/Users/sozey/Projects/BankApp/BankApp.Core/BankApp.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
