@@ -1,20 +1,12 @@
-using BankApp.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace BankApp.Persistence.Contexts;
-
-public class BankAppDbContext : DbContext
+namespace BankApp.Persistence.Contexts
 {
-    public DbSet<Customer> Customers { get; set; }
-    public DbSet<IndividualCustomer> IndividualCustomers { get; set; }
-    public DbSet<CorporateCustomer> CorporateCustomers { get; set; }
-
-    public BankAppDbContext(DbContextOptions<BankAppDbContext> options) : base(options)
+    public class BankAppDbContext
     {
+        
     }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(BankAppDbContext).Assembly);
-    }
-} 
+}

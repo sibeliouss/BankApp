@@ -5,4 +5,4 @@ namespace BankApp.Application.Services.Repositories;
 
 public interface ICorporateCustomerRepository : IAsyncRepository<CorporateCustomer, Guid>
 {
-} 
+}
