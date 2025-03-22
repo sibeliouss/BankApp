@@ -7,16 +7,11 @@ namespace BankApp.Core.CrossCuttingConcerns.Exceptions.Middlewares;
 public class ExceptionMiddleware
 {
     private readonly RequestDelegate _next;
-    private readonly IHttpContextAccessor _httpContextAccessor;
-    private readonly ExceptionHandler _exceptionHandler;
+    private readonly IExceptionHandler _exceptionHandler;
 
-    public ExceptionMiddleware(
-        RequestDelegate next,
-        IHttpContextAccessor httpContextAccessor,
-        ExceptionHandler exceptionHandler)
+    public ExceptionMiddleware(RequestDelegate next, IExceptionHandler exceptionHandler)
     {
         _next = next;
-        _httpContextAccessor = httpContextAccessor;
         _exceptionHandler = exceptionHandler;
     }
 
@@ -28,14 +23,8 @@ public class ExceptionMiddleware
         }
         catch (Exception exception)
         {
-            await HandleExceptionAsync(exception);
+            await _exceptionHandler.HandleExceptionAsync(context, exception);
         }
-    }
-
-    private Task HandleExceptionAsync(Exception exception)
-    {
-        _httpContextAccessor.HttpContext.Response.ContentType = "application/json";
-        return _exceptionHandler.HandleExceptionAsync(exception);
     }
 }
 

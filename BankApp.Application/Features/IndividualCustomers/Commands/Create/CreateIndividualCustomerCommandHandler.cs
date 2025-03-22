@@ -28,7 +28,25 @@ public class CreateIndividualCustomerCommandHandler : IRequestHandler<CreateIndi
         await _businessRules.NationalIdCannotBeDuplicatedWhenInserted(request.NationalId);
         await _businessRules.CustomerMustBeAtLeast18YearsOld(request.DateOfBirth);
 
-        IndividualCustomer individualCustomer = _mapper.Map<IndividualCustomer>(request);
+        IndividualCustomer individualCustomer = new()
+        {
+            FirstName = request.FirstName,
+            LastName = request.LastName,
+            NationalId = request.NationalId,
+            DateOfBirth = request.DateOfBirth,
+            Email = request.Email,
+            PhoneNumber = request.PhoneNumber,
+            Address = request.Address,
+            TaxNumber = request.TaxNumber,
+            TaxOffice = request.TaxOffice,
+            MotherName = request.MotherName,
+            FatherName = request.FatherName,
+            Occupation = request.Occupation,
+            MonthlyIncome = request.MonthlyIncome,
+            MaritalStatus = request.MaritalStatus,
+            EducationLevel = request.EducationLevel
+        };
+
         IndividualCustomer createdCustomer = await _individualCustomerRepository.AddAsync(individualCustomer, cancellationToken);
         IndividualCustomerResponse customerResponse = _mapper.Map<IndividualCustomerResponse>(createdCustomer);
         

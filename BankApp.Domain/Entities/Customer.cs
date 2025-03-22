@@ -1,4 +1,5 @@
 using BankApp.Core.Repositories;
+using System;
 
 namespace BankApp.Domain.Entities;
 

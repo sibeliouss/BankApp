@@ -1,12 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using BankApp.Application.Services.Repositories;
+using BankApp.Core.Repositories;
+using BankApp.Domain.Entities;
+using BankApp.Persistence.Contexts;
 
-namespace BankApp.Persistence.Repositories
+namespace BankApp.Persistence.Repositories;
+
+public class IndividualCustomerRepository : EfRepositoryBase<IndividualCustomer, Guid, BankAppDbContext>, IIndividualCustomerRepository
 {
-    public class IndividualCustomerRepository
+    public IndividualCustomerRepository(BankAppDbContext context) : base(context)
     {
-        
     }
-}
+} 

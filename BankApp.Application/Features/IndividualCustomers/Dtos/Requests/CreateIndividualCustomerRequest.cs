@@ -11,8 +11,8 @@ public class CreateIndividualCustomerRequest
     public string Address { get; set; } = null!;
     public string TaxNumber { get; set; } = null!;
     public string TaxOffice { get; set; } = null!;
-    public string? MotherName { get; set; }
-    public string? FatherName { get; set; }
+    public string MotherName { get; set; } = null!;
+    public string FatherName { get; set; } = null!;
     public string? Occupation { get; set; }
     public decimal? MonthlyIncome { get; set; }
     public string? MaritalStatus { get; set; }

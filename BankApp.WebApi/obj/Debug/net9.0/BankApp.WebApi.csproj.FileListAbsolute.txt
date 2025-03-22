@@ -94,3 +94,13 @@
 /Users/sozey/Projects/BankApp/BankApp.WebApi/obj/Debug/net9.0/BankApp.WebApi.pdb
 /Users/sozey/Projects/BankApp/BankApp.WebApi/obj/Debug/net9.0/BankApp.WebApi.genruntimeconfig.cache
 /Users/sozey/Projects/BankApp/BankApp.WebApi/obj/Debug/net9.0/ref/BankApp.WebApi.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/AutoMapper.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Npgsql.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/sozey/Projects/BankApp/BankApp.WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

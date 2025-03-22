@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using BankApp.Core.Repositories;
+using BankApp.Domain.Entities;
 
-namespace BankApp.Application.Services.Repositories
+namespace BankApp.Application.Services.Repositories;
+
+public interface IIndividualCustomerRepository : IAsyncRepository<IndividualCustomer, Guid>
 {
-    public interface IIndividualCustomerRepository
-    {
-        
-    }
-}
+} 
